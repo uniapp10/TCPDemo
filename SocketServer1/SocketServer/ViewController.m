@@ -52,23 +52,6 @@
 //        NSLog(@"失败: %@, %@", error.domain, error.description);
         NSLog(@"失败");
     }
-    
-//
-//    char hearBeat[4] = {0x10,0x00,0x00,0x00};
-//    char hearBeat2[4] = {'a','b',0x00,0x00};
-//    NSData *heartData = [NSData dataWithBytes:&hearBeat length:sizeof(hearBeat)];
-////    char buffer[100];
-//    NSInteger datalength = 0;
-//    [heartData getBytes:&datalength length:sizeof(datalength)];
-
-//    NSInteger dataLength2 = 100;
-//    NSData *data2 = [NSData dataWithBytes:&dataLength2 length:sizeof(dataLength2)];
-//
-//    NSInteger datalength = 0;
-//    [data2 getBytes:&datalength length:sizeof(datalength)];
-//
-//    NSLog(@"%@", datalength);
-    
 }
 
 - (void)btnClick2 {
